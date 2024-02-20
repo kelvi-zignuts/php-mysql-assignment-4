@@ -45,6 +45,7 @@ $result = $conn->query($sql);
 <body>
     <div class="container">
         <h1 class="text-center">Tests</h1>
+        <!-- <a href="view_test.php" class="btn btn-primary">View</a> -->
         <table class="table">
             <thead>
                 <tr>
@@ -65,7 +66,7 @@ $result = $conn->query($sql);
                             <form action="dashboard.php" method="post" style="display:inline;">
                                 <input type="hidden" name="exam_id" value="<?php echo $row["id"];?>">
                                 <button type="submit" name="delete" class="btn btn-danger">Delete</button>
-                                <a href="view_test.php?id=<?php echo $row['id'];?>" class="btn btn-primary">View</a>
+                                <a href="view_test.php?exam_id=<?php echo $row['id'];?>" class="btn btn-primary">View</a>
                             </form>
                         </td>
                     </tr>

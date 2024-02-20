@@ -11,6 +11,13 @@
     /* padding-top: 30px; */
     box-shadow:rgba(125, 125, 202, 0.2) 0px 7px 29px 0px;
 }
+.container1{
+    max-width:80%;
+    margin:100px auto;
+    padding:50px;
+    /* padding-top: 30px; */
+    box-shadow:rgba(125, 125, 202, 0.2) 0px 7px 29px 0px;
+}
 .form-group{
     margin-bottom:30px;
     margin-top: 8px;
